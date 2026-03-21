@@ -17,17 +17,17 @@
   "nodes": [
     {
       "matrix": [
-        0.09353106891066677,
-        0.14474097312125636,
-        0.17423201548607037,
+        0.09353106148188535,
+        0.1447409620619782,
+        0.17423202397266113,
         0,
-        -0.1599903677156007,
-        -0.7153768240251068,
-        0.6801758282677,
+        -0.1599903550082354,
+        -0.7153768380302801,
+        0.6801757610457297,
         0,
         0.9048408788608359,
-        -0.37108928283993775,
-        -0.17745831202389986,
+        -0.3710892266627729,
+        -0.17745828515946252,
         0,
         0.8010643720626831,
         0.9379400014877319,
@@ -359,15 +359,32 @@
   "materials": [
     {
       "pbrMetallicRoughness": {
+        "metallicFactor": 0,
+        "roughnessFactor": 1
+      }
+    },
+    {
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0,
+        "roughnessFactor": 1
+      }
+    },
+    {
+      "pbrMetallicRoughness": {
         "baseColorFactor": [
-          0.5775804404214573,
-          0.018500220124016652,
-          0.018500220124016652,
+          1,
+          0,
+          0,
           1
         ],
         "metallicFactor": 1,
-        "roughnessFactor": 0.24
+        "roughnessFactor": 1
       },
+      "emissiveFactor": [
+        0.03954623527052923,
+        0,
+        0
+      ],
       "extensions": {
         "KHR_materials_emissive_strength": {
           "emissiveStrength": 5.68
@@ -400,7 +417,7 @@
             "TEXCOORD_0": 6
           },
           "indices": 7,
-          "material": 0
+          "material": 1
         }
       ]
     },
@@ -414,7 +431,7 @@
             "TEXCOORD_0": 10
           },
           "indices": 11,
-          "material": 0
+          "material": 2
         }
       ]
     }
